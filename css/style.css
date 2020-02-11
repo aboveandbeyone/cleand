@@ -178,13 +178,13 @@ img {
     padding: 0.5em 0;
 }
 
-.header__logo {
+/* .header__logo {
     margin-left: 5%;
-}
+} */
 
-.header div {
+/* .header div {
     margin: 1.5em 0 0 5%;
-}
+} */
 
 .header ul li {
     display: inline-block;
@@ -379,6 +379,12 @@ ul li, p {
 }
 
 /* End button styles */
+
+@media (max-width: 768px) {                  
+    .hide-sm {
+       display: none;
+    }
+ }
 
 .hidden {
     display: none;
