@@ -110,6 +110,14 @@ img {
 }
 
 /* Spacing utilities */
+.mb-05 {
+    margin-bottom: 0.5em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
 .mb-2 {
     margin-bottom: 2em;
 }
@@ -304,6 +312,20 @@ ul li, p {
     text-align: center;
 }
 /* END Services */
+/* Guarantee */
+.guarantee {
+    background: rgba(52, 79, 170, 0.9);
+    color: #fff;
+    padding: 1.5em 0.5em;
+}
+.guarantee p {
+    color: #fff;
+}
+
+.guarantee figure {
+    text-align: center;
+}
+/* END Guarantee */
 
 /* Button styles */
 .btn {
