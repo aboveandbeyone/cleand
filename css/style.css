@@ -178,14 +178,6 @@ img {
     padding: 0.5em 0;
 }
 
-/* .header__logo {
-    margin-left: 5%;
-} */
-
-/* .header div {
-    margin: 1.5em 0 0 5%;
-} */
-
 .header ul li {
     display: inline-block;
     padding: 0 1.4em 0 0;
@@ -195,7 +187,7 @@ img {
 .header__title,
 .header ul li a {
     text-decoration: none;
-    color: #ed3330;
+    color: rgba(52, 79, 170, 0.9);;
 }
 
 .header li a.active {
