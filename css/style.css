@@ -326,6 +326,29 @@ ul li, p {
     text-align: center;
 }
 /* END Guarantee */
+/* Form */
+.form p + p {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+}
+.form p + p > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+}
+.form p + p > input {
+    flex: 2;
+}
+
+.form p + p > input,
+
+.form p + p > button {
+    padding: 0.5em;
+}
+.form p + p > button {
+    margin-right: auto;
+}
+/* END Form */
 
 /* Button styles */
 .btn {
