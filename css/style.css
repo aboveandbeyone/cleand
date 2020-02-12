@@ -345,9 +345,7 @@ ul li, p {
     .form {
         grid-template-rows: 1fr;
     }
-    .form-message {
-        grid-column: span 2;
-    }
+
 }
 .form-title {
     grid-column: span 2;
