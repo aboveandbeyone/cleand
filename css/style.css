@@ -344,7 +344,6 @@ label {
     text-transform: uppercase;
 }
 input {
-    display: inline;
     width: 100%;
 }
 .form_message {
