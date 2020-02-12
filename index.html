@@ -36,7 +36,7 @@
     </nav>
 
     <main>
-        <section class="mb-4">
+        <section class="mb-6">
             <div class="hero">
                 <div class="hero__text">
                     <h1 class="hero__header">Going above and beyond to provide the best clean possible</h1>
@@ -47,15 +47,16 @@
         </section>
 
         <!-- How it works -->
-        <section class="mb-4">
-            <div class="container feature">
-                <h2 class="feature-title mb-2">We take care of your house cleaning needs in 3 easy steps</h2>
+        <section class="mb-6">
+            <div class="feature">
+                <div class="container">
+                    <h2 class="feature-title mb-4">We take care of your house cleaning needs in 3 easy steps</h2>
 
                 <ul class="grid">
                     <li class="card mb-2">
                         <figure class="card__img">
-                            <img src="/assets/svg/014-cleaner.svg" alt="mobile phone behind a home with a brush on the roof"
-                                 height="67" width="60">
+                            <img src="/assets/svg/014-cleaner.svg"
+                                alt="mobile phone behind a home with a brush on the roof" height="67" width="60">
                         </figure>
                         <div class="card-content">
                             <h3 class="card-content__title">Book</h3>
@@ -85,15 +86,17 @@
                         </div>
                     </li>
                 </ul>
+                </div>
             </div>
         </section>
         <!-- END of How it works -->
 
         <!-- Services -->
-        <section class="mb-4">
-            <div class="container services">
-                <h2 class="mb-2 text-c">Our main types of house cleaning services include:</h2>
-                <ul class="services__list mb-2">
+        <section class="mb-6">
+            <div class="services">
+                <div class="container">
+                    <h2 class="mb-3 text-c">Our main types of house cleaning services include:</h2>
+                <ul class="services__list mb-3">
                     <li>Standard Cleaning</li>
                     <li>Deep Cleaning</li>
                     <li>Move in / out</li>
@@ -104,25 +107,30 @@
                 <div class="services__link">
                     <a href="#">What's included</a>
                 </div>
+                </div>
             </div>
         </section>
         <!-- END Services -->
 
         <!-- GUARANTEE -->
-        <section class="mb-4">
-            <div class="container guarantee">
-                <h2 class="mb-05 text-c">100% Satisfaction Guarantee</h2><figure class=""><img class="mb-1" src="/assets/svg/010-guarantee.svg" alt="" height="67" width="60"></figure>
-                <p>Our 100% Happiness Guarantee is our goal to offer you the best experience possible. If you're not
-                    satisfied with the house cleaning service, let us know within the first 24 hours and we'll offer a
-                    re-clean at no extra charge.</p>
+        <section class="mb-6">
+            <div class="guarantee">
+                <div class="container">
+                    <h2 class="mb-05 text-c">100% Satisfaction Guarantee</h2>
+                    <figure class=""><img class="mb-2" src="/assets/svg/010-guarantee.svg" alt="" height="67"
+                            width="60"></figure>
+                    <p>Our 100% Happiness Guarantee is our goal to offer you the best experience possible. If you're not
+                        satisfied with the house cleaning service, let us know within the first 24 hours and we'll offer
+                        a re-clean at no extra charge.</p>
+                </div>
             </div>
         </section>
         <!-- END of Guarantee -->
 
         <!-- Reasons to trust -->
-        <section class="mb-4">
+        <section class="mb-6">
             <div class="container">
-                <h2 class="mb-2 text-c">A service you can trust</h2>
+                <h2 class="mb-3 text-c">A service you can trust</h2>
                 <ul class="reasons">
                     <li>Eco Friendly Products</li>
                     <li>Locally Owned</li>
@@ -137,10 +145,11 @@
         <!-- END of Reasons to trust -->
 
         <!-- Form -->
-        <section class="mb-4">
+        <section class="mb-2">
             <div class="container">
-                <form class="form" id="contact" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-                    <h2 class="mb-2 text-c">Honest. Simple. Clean.</h2>
+                <form class="form" id="contact" name="contact" method="POST" netlify-honeypot="bot-field"
+                    data-netlify="true">
+                    <h2 class="mb-3 text-c">Honest. Simple. Clean.</h2>
                     <p class="hidden">
                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                     </p>
@@ -162,9 +171,9 @@
                         </label>
                         <input type="email" id="mail" name="user_mail" required>
                     </p>
-                    <p>
+                    <p class="mb-2">
                         <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <textarea class="form_message" id="msg" name="user_message"></textarea>
                     </p>
                     <p>
                         <button class="btn btn__primary--color" type="submit">Find help now</button>

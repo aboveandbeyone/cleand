@@ -129,6 +129,21 @@ img {
 .mb-4 {
     margin-bottom: 4em;
 }
+.mb-6 {
+    margin-bottom: 6em;
+}
+.mb-8 {
+    margin-bottom: 8em;
+}
+.pb-1 {
+    padding-bottom: 1em;
+}
+.pb-2 {
+    padding-bottom: 2em;
+}
+.pt-2 {
+    padding-top: 2em;
+}
 
 .text-c {
     text-align: center;
@@ -308,7 +323,7 @@ ul li, p {
 .guarantee {
     background: rgba(52, 79, 170, 0.9);
     color: #fff;
-    padding: 1.5em 0.5em;
+    padding: 3em 0.5em;
 }
 .guarantee p {
     color: #fff;
@@ -319,7 +334,29 @@ ul li, p {
 }
 /* END Guarantee */
 /* Form */
-.form p + p {
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    display: block;
+    text-transform: uppercase;
+}
+input {
+    display: inline;
+    width: 100%;
+}
+.form_message {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.form_message {
+    vertical-align: top;
+}
+/* .form p + p {
     display: flex;
     justify-content: flex-end;
     padding: 0.5em;
@@ -339,7 +376,7 @@ ul li, p {
 }
 .form p + p > button {
     margin-right: auto;
-}
+} */
 /* END Form */
 
 /* Button styles */
@@ -347,7 +384,7 @@ ul li, p {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px;
+    padding: 12px;
     border-radius: 5px;
     display: inline-block;
     border: none;
