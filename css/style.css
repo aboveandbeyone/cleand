@@ -100,7 +100,7 @@ img {
     border-style: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     figure img {
         -o-object-fit: cover;
            object-fit: cover;
@@ -161,7 +161,7 @@ img {
     max-width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .hide-m {
         display: none; 
     }
@@ -211,7 +211,7 @@ img {
     font-weight: 300;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .header {
         flex-direction: row;
         justify-content: space-between;
@@ -334,38 +334,48 @@ ul li, p {
 }
 /* END Guarantee */
 /* Form */
-.form {
-    display: grid;
-    grid-template-columns: [labels] auto [controls] 1fr;
-    grid-auto-flow: row;
-    grid-gap: 0.8em;
-    padding: 1.2em;
+.form label,
+.form input,
+.form textarea,
+.form .btn {
+    display: flex;
+    flex-direction: column;
 }
-@media (max-width: 599px) {                  
+
+.form .btn {
+    margin: 1.5em 0 1em;
+}
+
+@media (min-width: 768px) {
     .form {
-        grid-template-rows: 1fr;
+        display: grid;
+        grid-template-columns: [labels] auto [controls] 1fr;
+        grid-auto-flow: row;
+        grid-gap: 0.8em;
+        padding: 1.2em;
     }
+    .form-title {
+        grid-column: span 2;
+    }
+    
+    .form-message {
+        grid-column: span 2;
+    }
+    
+    .form > label {
+        grid-column: labels;
+        grid-row: auto;
+    }
+    .form > input,
+    .form > textarea,
+    .form > button {
+        grid-column: controls;
+        grid-row: auto;
+        padding: 1em;
+    }
+}
 
-}
-.form-title {
-    grid-column: span 2;
-}
 
-.form-message {
-    grid-column: span 2;
-}
-
-.form > label {
-    grid-column: labels;
-    grid-row: auto;
-}
-.form > input,
-.form > textarea,
-.form > button {
-    grid-column: controls;
-    grid-row: auto;
-    padding: 1em;
-}
 
 /* END Form */
 
@@ -398,7 +408,6 @@ ul li, p {
 }
 
 /* End button styles */
-
 @media (max-width: 768px) {                  
     .hide-sm {
        display: none;
