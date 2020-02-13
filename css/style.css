@@ -338,13 +338,16 @@ form {
     padding: 1em;
     margin: 2rem auto 0 auto;
     padding: 1em;
-    background: rgba(52, 79, 170, 0.9);
-    border-radius: 4px;
     color: #fff;
   }
+.section-form {
+    background: rgba(52, 79, 170, 0.9);
+}
+form h2 {
+    margin-top: 1.5em;
+}
 
-
-  form input {
+form input {
     background: #fff;
     border: 1px solid #9c9c9c;
   }
@@ -353,7 +356,6 @@ form {
     padding: 0.7em;
     width: 100%;
     border: 0;
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.4);
   }
 
   
@@ -463,6 +465,7 @@ form {
     display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.4);
 }
 
 .btn__primary--color {
