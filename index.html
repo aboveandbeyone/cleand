@@ -153,7 +153,7 @@
             <div class="container">
                 <form class="form" id="contact" name="contact" method="POST" netlify-honeypot="bot-field"
                     data-netlify="true">
-                    
+
                     <h2 class="mb-3 text-c form-title">Honest. Simple. Clean.</h2>
                     <p class="hidden">
                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -174,15 +174,22 @@
                     </label>
                     <input type="email" id="mail" name="user_mail" required>
 
+                    <label for="start">Choose your appointment date:</label>
+                    <input type="date" id="start" name="appt-date" value="2020-01-01">
+
+                    <label for="appt-time">Choose an appointment time: </label>
+                    <input id="appt-time" type="time" name="appt-time" value="13:30">
+
                     <label for="msg">Message:</label>
                     <textarea class="form_message" id="msg" name="user_message"></textarea>
 
                     <button class="btn btn__primary--color" type="submit">Find help now</button>
 
-                    <small class="form-message">We'll never share your information with anyone else nor send out any spam. We hate that nonsense as well!</small>
+                    <small class="form-message">We'll never share your information with anyone else nor send out any
+                        spam. We hate that nonsense as well!</small>
                 </form>
             </div>
-        </section> 
+        </section>
 
         <!-- END of Form -->
 
