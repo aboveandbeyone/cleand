@@ -371,7 +371,7 @@ form input {
     outline: 3px solid gold;
   }
   
-  @media (min-width: 400px) {
+  @media (min-width: 768px) {
     form {
       grid-template-columns: 200px 1fr;
       grid-gap: 16px;
