@@ -19,6 +19,11 @@
     max-width: 55ch;
 }
 
+:root {
+    --main-body-color: #fefefe;
+    --main-bg-color: rgba(26, 53, 141, 0.9);
+}
+
 html, body, div,
 header, nav, section,
 article, form, main,
@@ -39,6 +44,7 @@ body {
     line-height: 1.45;
     font-style: normal;
     text-rendering: optimizeLegibility;
+    background-color: var(--main-body-color);
 
     /* background: feature#fff8e7; */
 
@@ -135,6 +141,18 @@ img {
 .mb-8 {
     margin-bottom: 8em;
 }
+.mt-1 {
+    margin-top: 1em;
+}
+.mt-2 {
+    margin-top: 2em;
+}
+.mt-3 {
+    margin-top: 3em;
+}
+.mt-4 {
+    margin-top: 4em;
+}
 .pb-1 {
     padding-bottom: 1em;
 }
@@ -202,7 +220,7 @@ img {
 .header__title,
 .header ul li a {
     text-decoration: none;
-    color: rgba(52, 79, 170, 0.9);;
+    color: var(--main-bg-color);
 }
 
 .header li a.active {
@@ -260,7 +278,7 @@ img {
 
 .hero__text p {
     font-weight: 300;
-}
+}var(--main-bg-color);
 /* END Hero */
 
 /* Feature Section */
@@ -274,7 +292,7 @@ img {
 
 .card {
     box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-    border-top: 6px solid rgba(52, 79, 170, 0.9);
+    border-top: 6px solid var(--main-bg-color);
     padding: 0.5em 1em 0.5em;
     border-radius: 4px;
 }
@@ -291,10 +309,11 @@ img {
     text-align: center;
     font-weight: 800;
 }
-
+.feature-title, .services,
+.reasons__title,
 .card-content__descr,
 ul li, p {
-    color: #353434;
+    color: var(--main-bg-color);
 }
 
 /* END Feature section */
@@ -312,7 +331,7 @@ ul li, p {
     content: "\2022";
     display: inline-block;
     width: 1em;
-    color: rgba(52, 79, 170, 0.9);
+    color: var(--main-bg-color);
 }
 
 .services__link {
@@ -321,7 +340,7 @@ ul li, p {
 /* END Services */
 /* Guarantee */
 .guarantee {
-    background: rgba(52, 79, 170, 0.9);
+    background: var(--main-bg-color);
     color: #fff;
     padding: 3em 0.5em;
 }
@@ -333,6 +352,7 @@ ul li, p {
     text-align: center;
 }
 /* END Guarantee */
+/* Form */
 form {
     display: grid;
     padding: 1em;
@@ -341,7 +361,7 @@ form {
     color: #fff;
   }
 .section-form {
-    background: rgba(52, 79, 170, 0.9);
+    background: var(--main-bg-color);
 }
 form h2 {
     margin-top: 1.5em;
@@ -357,7 +377,6 @@ form input {
     width: 100%;
     border: 0;
   }
-
   
   label {
     padding: 0.5em 0.5em 0.5em 0;
@@ -396,64 +415,67 @@ form input {
 .form > button {
     margin: 0.8em 0;
 }
-  
-/* Form */
-/* .form {
-    padding: 1.2em;
+/* END Form */
+/* Footer */
+
+footer {
+    background-color: #040f0f;
+    color: #567179;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: #567179;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    color: #567179;
+    padding-bottom: 0.625rem;
+}
+.ft-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.ft-main-item {
+    min-width: 12.5rem;
+    margin-bottom: 1rem;
+}
+
+.ft-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-top: 0;
     min-width: 100%;
 }
-
-.form > input,
-.form > textarea,
-.form > button {
-    padding: 1em;
+.ft-social-list li {
+    margin: 0 0.5rem;
 }
+.ft-legal {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
-.form > label,
-.form > input {
-    margin-bottom: 0.5em;
 }
-
-.form label,
-.form input,
-.form textarea,
-.form .btn {
+.ft-legal-list {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    white-space: nowrap;
+    margin: 0 0.5rem;
+    color: unset;
+}
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
 }
 
-.form .btn {
-    margin: 1.5em 0 1em;
-}
-
-@media (min-width: 768px) {
-    .form {
-        display: grid;
-        grid-template-columns: [labels] auto [controls] 1fr;
-        grid-auto-flow: row;
-        grid-gap: 0.8em;
-    }
-    .form-title {
-        grid-column: span 2;
-    }
-    
-    .form-message {
-        grid-column: span 2;
-    }
-    
-    .form > label {
-        grid-column: labels;
-        grid-row: auto;
-    }
-    .form > input,
-    .form > textarea,
-    .form > button {
-        grid-column: controls;
-        grid-row: auto;
-    }
-} */
-
-/* END Form */
+/* END Footer */
 
 /* Button styles */
 .btn {
