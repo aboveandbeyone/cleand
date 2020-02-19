@@ -498,6 +498,11 @@ footer a:hover {
     }
  }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
  /* Spacing utilities */
 .mb-05 {
     margin-bottom: 0.5em;
