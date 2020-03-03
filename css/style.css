@@ -74,7 +74,7 @@ p {
 h1, h2, h3,
 h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: inherit;
 }
 
@@ -214,6 +214,16 @@ img {
     background-image: linear-gradient(rgba(52, 79, 170, 0.4),rgba(52, 79, 170, 0.7)), url("/assets/bedroom.jpg");
 }
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header__bg--img {
+        background-image: linear-gradient(rgba(52, 79, 170, 0.4),rgba(52, 79, 170, 0.7)), url("/assets/the-honest-company.jpg");
+    }
+    .bedroom__bg--img {
+        background-image: linear-gradient(rgba(52, 79, 170, 0.4),rgba(52, 79, 170, 0.7)), url("/assets/volha-flaxeco.jpg");
+    }
+}
+
 .hero h1,
 .hero p {
     color: #fff;
@@ -232,7 +242,7 @@ img {
 
 .hero__text p {
     font-weight: 300;
-}var(--main-bg-color);
+}
 /* END Hero */
 
 /* Feature Section */
