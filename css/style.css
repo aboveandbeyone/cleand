@@ -426,21 +426,37 @@ footer a:hover {
     padding-bottom: 2rem;
 
 }
-.ft-legal-list {
+.ft-legal-list,
+.ft-built-by-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-.ft-legal-list li {
+.ft-legal-list li,
+.ft-built-by-list {
     white-space: nowrap;
     margin: 0 0.5rem;
     color: unset;
 }
+.ft-built-by-list li a,
 .ft-legal-list li a {
     text-decoration: underline;
 }
 .ft-legal-list li:nth-last-child(2) {
     flex: 1;
+}
+
+.ft-built-by {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.ft-built-by-list {
+    font-size: 16px;
+}
+
+.ft-built-by-list li {
+    color: #567179;
 }
 
 /* END Footer */
