@@ -381,8 +381,38 @@ form input {
     margin: 0.8em 0;
 }
 /* END Form */
-/* Footer */
 
+/* Terms & conditions and Privacy
+    policy
+*/
+.under_construction {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.under_construction p {
+    color: black;
+}
+
+.body-sticky-footer {
+    display: flex;
+    flex-direction: column;
+}
+.sticky-footer {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* END Terms & conditions and Privacy
+    policy
+*/
+/* Footer */
 footer {
     background-color: #040f0f;
     color: #567179;
