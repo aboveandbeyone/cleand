@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a website for "Above and Beyond," a cleaning service company based in Guyana. The website is designed to promote the company's services and make it easy for potential customers to get in touch and book cleaning services. It demonstrates my dual expertise in web development and strategic business consulting, resulting in an upgraded website and improved financial practices for Jampro.
+This project is a website for "Above and Beyond," a cleaning service company based in Guyana. The website is designed to promote the company's services and make it easy for potential customers to get in touch and book cleaning services. It demonstrates my end-to-end involvement, from design and copywriting to market research and business advisory, in creating a powerful online presence for a start-up in the service industry.
 
 ## Features
 
@@ -36,11 +36,7 @@ The website is built with HTML and CSS, ensuring a responsive and user-friendly 
 
 ## Project Impact
 
-This project demonstrates my dual expertise in web development and strategic business consulting. The result is an upgraded website for "Above and Beyond" that not only enhances the user experience but also aligns with improved financial practices for Jampro. This combination of skills ensures that the website is not only visually appealing and functional but also strategically positioned for business success.
-
-## Contact
-
-For more information, visit [Above and Beyond](https://www.aboveandbeyond.gy) or contact me at [talescript@web.de](mailto:talescript@web.de).
+This project demonstrates my end-to-end involvement, from design and copywriting to market research and business advisory, in creating a powerful online presence for a start-up in the service industry. The result is a comprehensive and visually appealing website that effectively communicates the company's services and values, ensuring a strong market presence and enhanced customer engagement.
 
 ---
 
